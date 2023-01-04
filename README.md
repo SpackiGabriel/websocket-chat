@@ -5,7 +5,7 @@
 ## What is this project?
 
 <p>
-The current project is a WebChat room developed by me to study the Socket.io library
+The current project is a web ChatRoom developed by me to study the Socket.io library
 <p>
 
 ## What techlogies does it use?
