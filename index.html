@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WebSocket Chat</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <form>
+            <input type="text" id="msg_input" autofocus autocomplete="off" placeholder="Input a message!">
+            <button>Send</button>
+        </form>
+    </header>
+
+    <ul id="msg_list"></ul>
+
+    <div id="status"></div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="connection.js" defer></script>
+</body>
+</html>
