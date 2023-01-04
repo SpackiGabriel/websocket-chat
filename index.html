@@ -9,17 +9,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <form>
-            <input type="text" id="msg_input" autofocus autocomplete="off" placeholder="Input a message!">
-            <button>Send</button>
-        </form>
-    </header>
+    <nav class="l-nav">
+    </nav>
 
-    <ul id="msg_list"></ul>
+    <main class="l-main">
+        <header class="msg__header">
+            <img class="header__image" src="images/user-placeholder.webp">
+            <section class="header__info">
+                <h1 class="header__name">WebSocket Chat!</h1>
+                <h2 class="header__status" id="status"></h2>
+            </section>
+        </header>
 
-    <div id="status"></div>
-
+        <div class="msg__area">
+            <ul class="msg__list" id="msg_list"></ul>
+        </div>
+    
+        <div class="msg__send">
+            <form class="input__area">
+                <input class="form__input" type="text" id="msg_input" autofocus autocomplete="off" placeholder="Input a message!">
+            </form>
+        </div>
+    </main>
     
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
