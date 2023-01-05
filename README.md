@@ -36,6 +36,6 @@ The current project is a web ChatRoom developed by me to study the Socket.io lib
 
 ## Wanna try it?
 
-![](https://github.com/spackigabriel/readme-gif.gif)
+![](https://github.com/SpackiGabriel/websocket-chat/blob/main/public/images/readme-gif.gif)
 
 <a href="https://tundra-hazel-venom.glitch.me/">Try it here!</a>
