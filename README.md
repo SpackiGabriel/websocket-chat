@@ -36,11 +36,6 @@ The current project is a web ChatRoom developed by me to study the Socket.io lib
 
 ## Wanna try it?
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;">
-  <img src="https://giphy.com/embed/lVm8TUlU6pk13oOJei" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></img>
-</div>
-<p>
-  <a href="https://giphy.com/gifs/lVm8TUlU6pk13oOJei">via GIPHY</a>
-</p>
+![](https://giphy.com/embed/lVm8TUlU6pk13oOJei)
 
 <a href="https://tundra-hazel-venom.glitch.me/">Try it here!</a>
