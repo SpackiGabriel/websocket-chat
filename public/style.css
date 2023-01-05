@@ -107,9 +107,10 @@ body {
 
     color: var(--white-color);
     font-size: 12pt;
+    padding: 1em 0;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 1em;
@@ -124,6 +125,7 @@ body {
     min-height: 2.5em;
 
     background-color: var(--outstanding-color);
+    border-radius: 15px;
     
     display: flex;
     justify-content: center;
@@ -163,4 +165,56 @@ body {
 
     border: none;
     outline: none;
+}
+
+@media (max-width: 700px) and (orientation: portrait) {
+    .l-nav {
+        width: 0;
+    }
+
+    .l-main {
+        width: 100%;
+    }
+
+    .header__name {
+        font-size: 12pt;
+    }
+
+    .msg__list {
+        width: 100%;
+    }
+
+    .msg__list li {
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) and (orientation: landscape) {
+    .l-nav {
+        width: 0;
+    }
+
+    .l-main {
+        width: 100%;
+    }
+
+    .msg__header {
+        height: 15%;
+    }
+    
+    .header__image {
+        width: 2.5em;
+    }
+
+    .header__name {
+        font-size: 14pt;
+    }
+
+    .msg__area {
+        height: 70%;
+    }
+
+    .msg__send {
+        height: 15%;
+    }
 }
