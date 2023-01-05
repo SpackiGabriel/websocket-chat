@@ -12,35 +12,30 @@ The current project is a web ChatRoom developed by me to study the Socket.io lib
 
 ## What techlogies does it use?
 
-<div align="center">
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>
-      Javascript:
-      <ul>
-        <li>JQuery</li>
-        <li>Socket.io</li>
-        <li>Express</li>
-        <li>HTTP</li>
-      </ul>
-    </li>
-  </ul>
-</div>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>
+    Javascript:
+    <ul>
+      <li>JQuery</li>
+      <li>Socket.io</li>
+      <li>Express</li>
+      <li>HTTP</li>
+    </ul>
+  </li>
+</ul>
 
 ## How do I run it?
-<div align="center">
-  <ol>
-    <li>Find the location of <i>server.js</i>.</li>
-    <li>Open a terminal in the same location.</li>
-    <li>Type <i>npm start</i> and press enter.</li>
-    <li>Be happy!</i></li>
-  </ol>
-</div>
+<ol>
+  <li>Find the location of <i>server.js</i>.</li>
+  <li>Open a terminal in the same location.</li>
+  <li>Type <i>npm start</i> and press enter.</li>
+  <li>Be happy!</i></li>
+</ol>
+
 ## Wanna try it?
 
-<div align="center">
-  ![](https://github.com/SpackiGabriel/websocket-chat/blob/main/public/images/readme-gif.gif)
+![](https://github.com/SpackiGabriel/websocket-chat/blob/main/public/images/readme-gif.gif)
 
-  <a href="https://tundra-hazel-venom.glitch.me/">Try it here!</a>
-</div>
+<a href="https://tundra-hazel-venom.glitch.me/">Try it here!</a>
