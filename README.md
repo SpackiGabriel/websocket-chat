@@ -12,7 +12,7 @@ The current project is a web ChatRoom developed by me to study the Socket.io lib
 
 ## What techlogies does it use?
 
-<ul>
+<ul align="center">
   <li>HTML</li>
   <li>CSS</li>
   <li>
@@ -27,7 +27,7 @@ The current project is a web ChatRoom developed by me to study the Socket.io lib
 </ul>
 
 ## How do I run it?
-<ol>
+<ol align="center">
   <li>Find the location of <i>server.js</i>.</li>
   <li>Open a terminal in the same location.</li>
   <li>Type <i>npm start</i> and press enter.</li>
@@ -36,6 +36,8 @@ The current project is a web ChatRoom developed by me to study the Socket.io lib
 
 ## Wanna try it?
 
-![](https://github.com/SpackiGabriel/websocket-chat/blob/main/public/images/readme-gif.gif)
+<div>
+  ![](https://github.com/SpackiGabriel/websocket-chat/blob/main/public/images/readme-gif.gif)
 
-<a href="https://tundra-hazel-venom.glitch.me/">Try it here!</a>
+  <a href="https://tundra-hazel-venom.glitch.me/">Try it here!</a>
+</div>
